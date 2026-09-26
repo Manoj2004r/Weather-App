@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/.terraform.lock.hcl
+
+# Sensitive Terraform variables
+terraform/terraform.tfvars
+
+# Lambda ZIP
+lambda.zip
+
+# Environment files
+.env
+
+# SSH keys
+*.pem
